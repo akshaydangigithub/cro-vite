@@ -140,7 +140,7 @@ const Navbar = () => {
                   style={{ fontSize: 14 }}
                   className="nav-link active"
                   aria-current="page"
-                  href="/committee"
+                  to="/committee"
                 >
                   COMMITTEE
                 </a>

@@ -1,6 +1,4 @@
-"use client"
 import React from 'react'
-import styles from "./style.modul.css"
 import hand from "../../assets/hand.png"
 import responsibility from "../../assets/responsibility.png"
 import setting from "../../assets/setting.png"
