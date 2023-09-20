@@ -1,0 +1,12 @@
+.carousel{
+    height: 40vmax;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 4vmax;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+}

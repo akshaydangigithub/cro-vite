@@ -1,0 +1,16 @@
+.custom_nav {
+    background-color: #65c9a1;
+    padding: 1vmax 3vmax;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.custom_nav a {
+    font-weight: 600;
+}
+
+.dropDown {
+    font-weight: 600;
+}

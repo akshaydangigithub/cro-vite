@@ -1,0 +1,46 @@
+.icon {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: rgb(67, 67, 67);
+    margin: auto;
+    margin-bottom: 40px;
+    transition: all ease .3s;
+}
+.card{
+    height: 420px;
+    position: relative;
+    overflow: hidden;
+}
+.card::after{
+    height: 0%;
+    width: 100%;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #09cc7e90;
+    z-index: -1;
+}
+
+.card:hover::after{
+    height: 100%;
+    transition: all ease .5s;
+}
+.card:hover .icon{
+    color: #09CC7F;
+    transition: all ease .5s;
+    background-color: #fff;
+}
+.card:hover h4{
+    /* color: #fff; */
+    transition: all ease .5s;
+}
+.card:hover p{
+    /* color: #fff; */
+    transition: all ease .5s;
+}
