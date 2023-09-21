@@ -22,15 +22,16 @@ const Navbar = () => {
             <div>
               <h5
                 className="me-3 logoText fw-bolder"
-                style={{ fontSize: "1.29rem", marginBottom: "0" }}
+                style={{ fontSize: "1.2rem", marginBottom: "0" }}
               >
-                CONSUMER
+                उपभोक्ता अधिकार संगठन <br />
+                <span style={{fontSize:"1rem"}}>Consumer Rights Organisation</span>
               </h5>
               <h5
                 className="me-3 logoText fw-bolder"
                 style={{ fontSize: "1.11rem" }}
               >
-                Complaint Cell
+               
               </h5>
             </div>
           </div>
@@ -136,14 +137,14 @@ const Navbar = () => {
                 </ul>
               </li>
               <li className="nav-item me-3">
-                <a
+                <Link
                   style={{ fontSize: 14 }}
                   className="nav-link active"
                   aria-current="page"
                   to="/committee"
                 >
                   COMMITTEE
-                </a>
+                </Link>
               </li>
               {/* <li className="nav-item me-3">
                 <Link
