@@ -1,27 +1,27 @@
 import Footer from "../footer/Footer";
 import Navbar from "../navbar/Navbar";
 import React, { useEffect } from "react";
-import cr1 from "../../assets/cr-1.jpeg"
-import cr2 from "../../assets/cr-2.jpeg"
-import cr3 from "../../assets/cr-3.jpeg"
-import cr4 from "../../assets/cr-4.jpg"
-import cr5 from "../../assets/cr-5.jpeg"
-import cr6 from "../../assets/cr-6.jpeg"
+import cr1 from "../../assets/crn-1.jpg";
+import cr2 from "../../assets/crn-2.jpg";
+import cr3 from "../../assets/crn-3.jpg";
+import cr4 from "../../assets/crn-4.jpg";
+import cr5 from "../../assets/crn-5.jpg";
+import cr6 from "../../assets/crn-6.jpg";
 
 const AboutConsumer = () => {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-      }, [])
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar />
       <div className="container mt-5 pt-5">
         <h4 className="text-center fw-bolder mt-5">
-          6 BASIC CONSUMER RIGHTS EVERYONE MUST KNOW
+          BASIC CONSUMER RIGHTS EVERYONE MUST KNOW
         </h4>
         <div className="row mt-5">
           <div className="col-md-5">
-            <img src={cr3} alt="" />
+            <img src={cr1} style={{height:"100%", width:"100%", objectFit:"cover"}} alt="" />
           </div>
           <div className="col-md-7 pt-4">
             <h5 className="fw-bolder mb-4">RIGHT TO SAFETY </h5>
@@ -30,7 +30,7 @@ const AboutConsumer = () => {
               services, which are hazardous to life and property. Businesses are
               responsible for ensuring that their products/offerings meet
               quality standards and do not pose any unreasonable risks to
-              consumer's health & safety. While purchasing the goods or
+              consumer&#39;s health &amp; safety. While purchasing the goods or
               services, Consumer must look for standard quality mark such as
               ISI, Hallmark, Agmark, ISO, FSSAI etc.
             </p>
@@ -38,7 +38,7 @@ const AboutConsumer = () => {
         </div>
         <div className="row mt-5">
           <div className="col-md-5">
-            <img src={cr2} alt="" />
+            <img src={cr6} style={{height:"100%", width:"100%", objectFit:"cover"}} alt="" />
           </div>
           <div className="col-md-7 pt-2">
             <h5 className="fw-bolder mb-4">RIGHT TO CHOOSE </h5>
@@ -47,8 +47,8 @@ const AboutConsumer = () => {
               of goods and services at competitive price. In case of monopolies,
               it means right to be assured of satisfactory quality and service
               at a fair price. The consumers can choose the brand they find
-              suitable from their point of view Freedom of choice means that the
-              person is able to choose his own course of action and his own
+              suitable from their point of view. Freedom of choice means that
+              the person is able to choose his own course of action and his own
               pattern of living, subject to the requirement that he shall not
               act so as to violate the freedom of choice of others.
             </p>
@@ -56,7 +56,7 @@ const AboutConsumer = () => {
         </div>
         <div className="row mt-5">
           <div className="col-md-5">
-            <img src={cr1} alt="" />
+            <img src={cr2} style={{height:"100%", width:"100%", objectFit:"cover"}} alt="" />
           </div>
           <div className="col-md-7 pt-2">
             <h5 className="fw-bolder mb-4">RIGHT TO BE INFORMED </h5>
@@ -74,7 +74,7 @@ const AboutConsumer = () => {
         \
         <div className="row mt-5">
           <div className="col-md-5">
-            <img src={cr6} alt="" />
+            <img src={cr3} style={{height:"100%", width:"100%", objectFit:"cover"}} alt="" />
           </div>
           <div className="col-md-7">
             <h5 className="fw-bolder mb-2">RIGHT TO CONSUMER EDUCATION </h5>
@@ -98,24 +98,24 @@ const AboutConsumer = () => {
         </div>
         <div className="row mt-5">
           <div className="col-md-5">
-            <img src={cr4} alt="" />
+            <img src={cr4} style={{height:"100%", width:"100%", objectFit:"cover"}} alt="" />
           </div>
           <div className="col-md-7 pt-4">
             <h5 className="fw-bolder mb-4">RIGHT TO BE HEARD </h5>
             <p style={{ lineHeight: 2 }}>
-              Means that consumer's interests will receive due consideration at
-              appropriate forums. It also includes right to be represented in
-              various forums to consider the consumer's welfare. The Consumers
-              should form non-political and non-commercial consumer
+              Means that consumer&#39;s interests will receive due consideration
+              at appropriate forums. It also includes right to be represented in
+              various forums to consider the consumer&#39;s welfare. The
+              Consumers should form non-political and non-commercial consumer
               organizations which can be given representation in various
               committees formed by the Government and other bodies in matters
-              relating to consumers
+              relating to consumers.
             </p>
           </div>
         </div>
         <div className="row mt-5">
           <div className="col-md-5">
-            <img src={cr5} alt="" />
+            <img src={cr5} style={{height:"100%", width:"100%", objectFit:"cover"}} alt="" />
           </div>
           <div className="col-md-7 pt-2">
             <h5 className="fw-bolder mb-4">RIGHT TO SEEK REDRESSAL </h5>
@@ -134,7 +134,7 @@ const AboutConsumer = () => {
       </div>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default AboutConsumer
+export default AboutConsumer;

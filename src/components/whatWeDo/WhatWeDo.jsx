@@ -2,14 +2,14 @@
 
 import React from "react";
 import styles from "./style.module.css";
-import { AiOutlineSetting } from "react-icons/ai";
-import { MdCastForEducation } from "react-icons/md";
-import { FcDataProtection } from "react-icons/fc";
+import awarness from "../../assets/awareness.png";
+import education from "../../assets/education.png";
+import protection from "../../assets/protection.png";
 
 const WhatWeDo = () => {
   return (
     <div className="container mt-5">
-      <h3 className="text-center fs-2" style={{ color: "#2BB980" }}>
+      <h3 className="text-center fs-2" style={{ color: "#FF5D49" }}>
         What We Are Doing?
       </h3>
       <h1 className="text-center fs-4" style={{ color: "#002D5B" }}>
@@ -23,7 +23,7 @@ const WhatWeDo = () => {
             <div className="row">
               <div className="col">
                 <div className={`${styles.icon} shadow`}>
-                  <AiOutlineSetting className="fs-1 " />
+                  <img src={awarness} style={{height:"100%", width:"100%", objectFit:"cover"}} alt="" />
                 </div>
               </div>
             </div>
@@ -43,7 +43,7 @@ const WhatWeDo = () => {
             <div className="row">
               <div className="col">
                 <div className={`${styles.icon} shadow`}>
-                  <MdCastForEducation className="fs-1 " />
+                <img src={education} style={{height:"100%", width:"100%", objectFit:"cover"}} alt="" />
                 </div>
               </div>
             </div>
@@ -64,7 +64,7 @@ const WhatWeDo = () => {
             <div className="row">
               <div className="col">
                 <div className={`${styles.icon} shadow`}>
-                  <FcDataProtection className="fs-1 " />
+                <img src={protection} style={{height:"100%", width:"100%", objectFit:"cover"}} alt="" />
                 </div>
               </div>
             </div>

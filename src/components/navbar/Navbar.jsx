@@ -1,13 +1,18 @@
 import React, { useEffect } from "react";
 import styles from "./style.module.css";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo.png"
+import logo from "../../assets/logo.png";
+import pdf from "../../assets/act.pdf";
 
 const Navbar = () => {
-
+  const clickHandler = () => {
+    window.open(pdf);
+  };
   return (
     <>
-      <nav className={`navbar navbar-expand-lg position-fixed  ${styles.custom_nav}`}>
+      <nav
+        className={`navbar navbar-expand-lg position-fixed  ${styles.custom_nav}`}
+      >
         <div className="container">
           <div className="d-flex" style={{ alignItems: "center" }}>
             <Link className="navbar-brand" to="/">
@@ -25,14 +30,14 @@ const Navbar = () => {
                 style={{ fontSize: "1.2rem", marginBottom: "0" }}
               >
                 उपभोक्ता अधिकार संगठन <br />
-                <span style={{fontSize:"1rem"}}>Consumer Rights Organisation</span>
+                <span style={{ fontSize: "1rem" }}>
+                  Consumer Rights Organisation
+                </span>
               </h5>
               <h5
                 className="me-3 logoText fw-bolder"
                 style={{ fontSize: "1.11rem" }}
-              >
-               
-              </h5>
+              ></h5>
             </div>
           </div>
           <button
@@ -52,7 +57,7 @@ const Navbar = () => {
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item me-3">
+              <li className="nav-item me-3 ">
                 <a
                   style={{ fontSize: 14 }}
                   className="nav-link active"
@@ -84,7 +89,10 @@ const Navbar = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/about/aboutconsumer">
+                    <Link
+                      onClick={clickHandler}
+                      className="dropdown-item"
+                    >
                       About Consumer Act
                     </Link>
                   </li>

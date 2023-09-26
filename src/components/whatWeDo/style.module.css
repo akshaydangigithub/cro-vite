@@ -23,7 +23,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    background: #09cc7e90;
+    background: linear-gradient(to right, #ffa269, #ff7a69);
     z-index: -1;
 }
 
@@ -32,7 +32,7 @@
     transition: all ease .5s;
 }
 .card:hover .icon{
-    color: #09CC7F;
+    color: #ff7a69;
     transition: all ease .5s;
     background-color: #fff;
 }

@@ -22,9 +22,8 @@ const Complaint = () => {
               <p>
                 {" "}
                 <Link to="https://www.thecro.org/">
-                  FILE YOUR COMPLAINT{" "}
+                  <button className="btn text-white fw-bolder mt-4" style={{background:"linear-gradient(to right, #FE9251, #FF5D49)"}}>File a complaint</button>
                 </Link>{" "}
-                or contact us at +91 9977 252 252
               </p>
             </div>
             <div className="col-md-6">

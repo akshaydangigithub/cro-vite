@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: #2BB980;
+   background: linear-gradient(to right, #FE9251, #FF5D49);
     gap: .5vmax;
     cursor: pointer;
     border-radius: 15px;
@@ -19,7 +19,7 @@
 
 .member h1{
     font-size: 2vmax;
-    background-color: #b7ffe2;
+    background-color: #e8d2c4;
     width: fit-content;
     padding: .5vmax 2vmax;
     border-radius: 10px;

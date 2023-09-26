@@ -28,7 +28,7 @@ const patronMembers = [
     image: sanjayImage,
   },
   {
-    name: "Mr. Parakash Javadeker",
+    name: "Mr. Prakash Javadekar",
     position: "(MP - RAJYA SABHA) EX UNION MINISTER",
     image: "https://www.thecro.in/wp-content/uploads/2017/03/P_Javadekar.jpg",
   },
