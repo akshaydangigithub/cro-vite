@@ -7,6 +7,7 @@ import cr3 from "../../assets/crn-3.jpg";
 import cr4 from "../../assets/crn-4.jpg";
 import cr5 from "../../assets/crn-5.jpg";
 import cr6 from "../../assets/crn-6.jpg";
+import "../../components/style.css"
 
 const AboutConsumer = () => {
   useEffect(() => {
@@ -19,9 +20,9 @@ const AboutConsumer = () => {
         <h4 className="text-center fw-bolder mt-5">
           BASIC CONSUMER RIGHTS EVERYONE MUST KNOW
         </h4>
-        <div className="row mt-5">
-          <div className="col-md-5">
-            <img src={cr1} style={{height:"100%", width:"100%", objectFit:"cover"}} alt="" />
+        <div className="row mt-5 ">
+          <div className="col-md-5 image-con">
+            <img src={cr1} alt="" />
           </div>
           <div className="col-md-7 pt-4">
             <h5 className="fw-bolder mb-4">RIGHT TO SAFETY </h5>
@@ -37,8 +38,8 @@ const AboutConsumer = () => {
           </div>
         </div>
         <div className="row mt-5">
-          <div className="col-md-5">
-            <img src={cr6} style={{height:"100%", width:"100%", objectFit:"cover"}} alt="" />
+          <div className="col-md-5 image-con">
+            <img src={cr6} alt="" />
           </div>
           <div className="col-md-7 pt-2">
             <h5 className="fw-bolder mb-4">RIGHT TO CHOOSE </h5>
@@ -55,8 +56,8 @@ const AboutConsumer = () => {
           </div>
         </div>
         <div className="row mt-5">
-          <div className="col-md-5">
-            <img src={cr2} style={{height:"100%", width:"100%", objectFit:"cover"}} alt="" />
+          <div className="col-md-5 image-con">
+            <img src={cr2} alt="" />
           </div>
           <div className="col-md-7 pt-2">
             <h5 className="fw-bolder mb-4">RIGHT TO BE INFORMED </h5>
@@ -73,8 +74,8 @@ const AboutConsumer = () => {
         </div>
         \
         <div className="row mt-5">
-          <div className="col-md-5">
-            <img src={cr3} style={{height:"100%", width:"100%", objectFit:"cover"}} alt="" />
+          <div className="col-md-5 image-con">
+            <img src={cr3} alt="" />
           </div>
           <div className="col-md-7">
             <h5 className="fw-bolder mb-2">RIGHT TO CONSUMER EDUCATION </h5>
@@ -97,8 +98,8 @@ const AboutConsumer = () => {
           </div>
         </div>
         <div className="row mt-5">
-          <div className="col-md-5">
-            <img src={cr4} style={{height:"100%", width:"100%", objectFit:"cover"}} alt="" />
+          <div className="col-md-5 image-con">
+            <img src={cr4} alt="" />
           </div>
           <div className="col-md-7 pt-4">
             <h5 className="fw-bolder mb-4">RIGHT TO BE HEARD </h5>
@@ -114,8 +115,8 @@ const AboutConsumer = () => {
           </div>
         </div>
         <div className="row mt-5">
-          <div className="col-md-5">
-            <img src={cr5} style={{height:"100%", width:"100%", objectFit:"cover"}} alt="" />
+          <div className="col-md-5 image-con">
+            <img src={cr5} alt="" />
           </div>
           <div className="col-md-7 pt-2">
             <h5 className="fw-bolder mb-4">RIGHT TO SEEK REDRESSAL </h5>

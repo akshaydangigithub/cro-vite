@@ -20,7 +20,7 @@ const Footer = () => {
               <img
                 src={logo}
                 className="d-inline-block mb-2"
-                height={100}
+                height={80}
                 width={140}
                 alt=""
               />

@@ -23,7 +23,15 @@ const WhatWeDo = () => {
             <div className="row">
               <div className="col">
                 <div className={`${styles.icon} shadow`}>
-                  <img src={awarness} style={{height:"100%", width:"100%", objectFit:"cover"}} alt="" />
+                  <img
+                    src={awarness}
+                    style={{
+                      height: "100%",
+                      width: "100%",
+                      objectFit: "cover",
+                    }}
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -43,7 +51,15 @@ const WhatWeDo = () => {
             <div className="row">
               <div className="col">
                 <div className={`${styles.icon} shadow`}>
-                <img src={education} style={{height:"100%", width:"100%", objectFit:"cover"}} alt="" />
+                  <img
+                    src={education}
+                    style={{
+                      height: "100%",
+                      width: "100%",
+                      objectFit: "cover",
+                    }}
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -64,7 +80,15 @@ const WhatWeDo = () => {
             <div className="row">
               <div className="col">
                 <div className={`${styles.icon} shadow`}>
-                <img src={protection} style={{height:"100%", width:"100%", objectFit:"cover"}} alt="" />
+                  <img
+                    src={protection}
+                    style={{
+                      height: "100%",
+                      width: "100%",
+                      objectFit: "cover",
+                    }}
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
