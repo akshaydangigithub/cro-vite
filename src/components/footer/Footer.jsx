@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./style.modul.css";
+import styles from "./style.module.css";
 import {
   AiFillInstagram,
   AiFillLinkedin,
