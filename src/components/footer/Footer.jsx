@@ -16,12 +16,13 @@ const Footer = () => {
       <main>
         <div className={`container ${styles.footer}`}>
           <div className="row row1">
-            <div className="col-md-2 mb-4">
+            <div className="col-md-2 mb-4 position-relative ">
               <img
                 src={logo}
                 className="d-inline-block mb-2"
-                height={80}
-                width={140}
+                height={130}
+                width={250}
+                style={{position:"absolute", left:"-4rem"}}
                 alt=""
               />
             </div>

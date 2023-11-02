@@ -26,7 +26,7 @@ const Navbar = () => {
             </Link>
             <div>
               <h5
-                className="me-3 logoText fw-bolder"
+                className="me-3 logoText fw-bolder d-none d-md-block"
                 style={{ fontSize: "1.2rem", marginBottom: "0" }}
               >
                 उपभोक्ता अधिकार संगठन <br />

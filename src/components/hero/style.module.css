@@ -1,8 +1,9 @@
 .carousel{
-    height: 40vmax;
+    height: 47vmax;
     width: 100%;
     overflow: hidden;
     /* margin-top: 4vmax; */
+    background-color: #FFC801;
 }
 .image{
     height: 100%;

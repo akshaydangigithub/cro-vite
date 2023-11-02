@@ -1,13 +1,13 @@
 import Footer from "../footer/Footer";
 import Navbar from "../navbar/Navbar";
 import React, { useEffect } from "react";
-import cr1 from "../../assets/crn-1.jpg";
-import cr2 from "../../assets/crn-2.jpg";
-import cr3 from "../../assets/crn-3.jpg";
-import cr4 from "../../assets/crn-4.jpg";
-import cr5 from "../../assets/crn-5.jpg";
-import cr6 from "../../assets/crn-6.jpg";
-import "../../components/style.css"
+import cr1 from "../../assets/modified.jpg";
+import cr2 from "../../assets/modified006.jpg";
+import cr3 from "../../assets/modified005.jpg";
+import cr4 from "../../assets/modified004.jpg";
+import cr5 from "../../assets/modified003.jpg";
+import cr6 from "../../assets/modified002.jpg";
+import "../../components/style.css";
 
 const AboutConsumer = () => {
   useEffect(() => {
@@ -39,7 +39,7 @@ const AboutConsumer = () => {
         </div>
         <div className="row mt-5">
           <div className="col-md-5 image-con">
-            <img src={cr6} alt="" />
+            <img src={cr2} alt="" />
           </div>
           <div className="col-md-7 pt-2">
             <h5 className="fw-bolder mb-4">RIGHT TO CHOOSE </h5>
@@ -57,7 +57,7 @@ const AboutConsumer = () => {
         </div>
         <div className="row mt-5">
           <div className="col-md-5 image-con">
-            <img src={cr2} alt="" />
+            <img src={cr6} alt="" />
           </div>
           <div className="col-md-7 pt-2">
             <h5 className="fw-bolder mb-4">RIGHT TO BE INFORMED </h5>
@@ -75,7 +75,7 @@ const AboutConsumer = () => {
         \
         <div className="row mt-5">
           <div className="col-md-5 image-con">
-            <img src={cr3} alt="" />
+            <img src={cr5} alt="" />
           </div>
           <div className="col-md-7">
             <h5 className="fw-bolder mb-2">RIGHT TO CONSUMER EDUCATION </h5>
@@ -116,7 +116,7 @@ const AboutConsumer = () => {
         </div>
         <div className="row mt-5">
           <div className="col-md-5 image-con">
-            <img src={cr5} alt="" />
+            <img src={cr3} alt="" />
           </div>
           <div className="col-md-7 pt-2">
             <h5 className="fw-bolder mb-4">RIGHT TO SEEK REDRESSAL </h5>
